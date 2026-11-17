@@ -1,0 +1,16 @@
+[package]
+name = "winGui"
+version = "1.2.0"
+edition = "2024"
+
+[lib]
+name = "main_library"
+path = "src/lib.rs"
+
+[dependencies]
+native-windows-gui = "1.0.13"
+base64 = "0.22.1"
+clipboard-win = "5.4.3"
+rand = { version = "0.10.3", features = ["std"] }
+chrono = "0.4.45"
+argon2 = "0.5"
